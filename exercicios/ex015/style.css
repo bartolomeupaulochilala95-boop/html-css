@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+body{
+    background-color: aquamarine;
+}
+#cursos{
+    background-color: rgba(51, 103, 85, 0.587);
+    text-align: center;
+}
+.titulos{
+    color: red;
+}
+.titulos:hover {
+    color: bisque;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}

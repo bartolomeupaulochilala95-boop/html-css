@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+:root{
+    --cor0: #c29051;
+    --cor1: #eea555;
+    --cor2: #2f2f28;
+    --cor3: #c87a25;
+
+    --font-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --font-android: 'android', cursive;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--font-padrao);
+}
+
+body{
+ background-color: #f5deb3;
+ font-family: var(--font-padrao);
+}
+header{
+    background-image: linear-gradient(to bottom, var(--cor0), var(--cor2));
+    background-color: var(--cor3);
+    min-height: 135px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+header > h1{
+    color: white;
+    margin-bottom: 5px;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 0px rgba(48, 48, 48, 0.592);
+}
+header > p{
+    color: white;
+    font-size: 1.7em;
+    max-width: 600px;
+    margin: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+nav{
+    background-color: var(--cor2);
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.192);
+}
+nav > a{
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav > a:hover{
+    background-color: var(--cor0);
+    color: #257416;
+}
+main{
+    min-width: 300px;
+    max-width: 1000px;
+    background-color: white;
+    margin: auto;
+    margin-bottom: -10px;
+    padding: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.461);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+main h2{
+    text-indent: 8px;
+    background-image: linear-gradient(to right, var(--cor1), transparent);
+}
+main img {
+    width: 100%;
+}
+main p{
+    margin: 10px 0px;
+    text-align: justify;
+    text-indent: 8px;
+    line-height: 1em;
+}
+aside {
+    background-color:var(--cor0);
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+aside > h3{
+    background-color: rgba(255, 255, 255, 0.272);
+    color: white;
+    border-radius: 10px;
+    padding: 4px;
+    font-size: 0.95em;
+}
+aside > ul{
+    list-style-type: '\2714\00A0';
+    list-style-position: inside;
+}
+aside > ul.baixo {
+    columns: 2;
+}
+footer {
+    text-align: center;
+    margin: auto;
+    padding: 25px;
+}
